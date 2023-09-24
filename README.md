@@ -1,6 +1,6 @@
 # ImaginAI - User-Friendly Image Generator
 
-![ImaginAI Demo]()
+![ImaginAI Demo](/static/images/demo.jpeg)
 
 ImaginAI is a user-friendly image generator inspired by DALL·E. It allows you to create visually appealing images from text prompts using advanced algorithms and models. The project is hosted and developed on the Replit platform and utilizes Flask to create a web application as the user interface for interacting with ImaginAI.
 
