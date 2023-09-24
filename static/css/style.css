@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+/* Navigation bar styles */
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2; 
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+body {
+  background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size: cover;
+  -webkit-animation: slidein 100s;
+  animation: slidein 100s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+
+@keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.background-container {
+  width: 400px;
+  height: 300px;
+  background: url('https://giphy.com/embed/BHNfhgU63qrks') center center no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  padding: 100px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #12130f;
+  border-radius: 6px;
+  margin-top: 20px;
+  font-size: 16px;
+  resize: none;
+  background-color: #c3c6bc80;
+  color: black;
+}
+input::placeholder {
+  color: #242222   
+}
+button {
+  background-color: #251240;
+  color: #cccccc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #12130f;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.image-container img {
+  width: calc(33.33% - 10px);
+  /* 3 images in a row with 10px gap */
+  border-radius: 6px;
+}
